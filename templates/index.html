@@ -1,13 +1,65 @@
-{% extends 'base.html' %}
-
-{% block content %}
-<div>
+{% extends 'base.html' %} {% block content %}
+<section class="bg">
+  <div>
     <h1>HTML</h1>
-</div>
+  </div>
 
-<section>
+  <div class="cards1">
     <div class="card">
-        HTML - HyperText Murkap Language
+      <h1>HTML</h1>
+      <p>
+        структура сайта, язык гипертекстовой разметки, HyperText Markup Language
+        (эйчтиэмл)
+      </p>
     </div>
+
+    <div class="card">
+      <h1>CSS</h1>
+      <p>стили сайта - Cascading Style Sheets (сиэсэс)</p>
+    </div>
+  </div>
+
+  <div class="text">
+    <h1>Основные теги</h1>
+  </div>
+
+  <div class="cards2">
+    <div class="card">
+      <h1>img (аймж)</h1>
+      <p>
+        тэг для изображения, атрибуты: src, alt <span>alt</span> - описание
+        картинки <span>src</span> - путь к картинке, передаем через точку и слэш
+        (./)
+      </p>
+    </div>
+
+    <div class="card">
+      <h1>h1-h2-h3-h4-h5-h6</h1>
+      <p>размеры текста (h1 – большой, h6 – маленький)</p>
+    </div>
+
+    <div class="card">
+      <h1>p</h1>
+      <p>параграф, абзац, нежирный по умолчанию</p>
+    </div>
+
+    <div class="card">
+      <h1>a</h1>
+      <p>
+        гипперссылка, атрибуты:href
+        <span>href - для ссылок</span>
+      </p>
+    </div>
+
+    <div class="card">
+      <h1>hr</h1>
+      <p>создаёт линию на сайте (ашэр)</p>
+    </div>
+
+    <div class="card">
+      <h1>button</h1>
+      <p>кнопка</p>
+    </div>
+  </div>
 </section>
 {% endblock content %}
