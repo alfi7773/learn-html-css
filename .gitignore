@@ -1,0 +1,6 @@
+media/
+__py_cache__
+ven
+.idea
+db.sqlite3
+makemigrations/
