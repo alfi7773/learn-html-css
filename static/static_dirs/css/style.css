@@ -3,9 +3,72 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 100%;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+
+    .container {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .logo {
+            background-image: url(../img/logo.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 295px;
+            height: 75px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 42px;
+
+            a {
+                text-decoration: none;
+                font-family: monospace;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+        }
+
+        .account {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}
+
+
 h1 {
     text-align: center;
 }
+
+header {
+    .joti-one-regular {
+        font-family: "Joti One", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}
+
 section {
     background-image: url(../img/d213dc06bfded3bf2aa1b5318970c665.jpg);
     background-position: center;
@@ -35,7 +98,7 @@ section {
         }
 
         .card:hover {
-            background-color:rgb(254, 28, 28);
+            background-color: rgb(254, 28, 28);
 
         }
     }
@@ -55,7 +118,7 @@ section {
         }
 
         .card:hover {
-            background-color:rgb(254, 28, 28);
+            background-color: rgb(254, 28, 28);
 
         }
     }

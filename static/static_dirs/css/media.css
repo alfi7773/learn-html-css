@@ -1,4 +1,32 @@
-@media (max-width: 320px) {
+@media (max-width: 400px) {
+
+    header {
+
+        .container {
+            /* display: block; */
+
+            .logo {
+                width: 150px;
+                height: 40px;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .account {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                h1 {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
     section {
         display: block;
         

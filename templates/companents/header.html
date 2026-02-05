@@ -1,0 +1,18 @@
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="../../static/static_dirs/img/Group 2.jpg" alt="">
+        </div>
+        <nav>
+            <a href="">test</a>
+            <a href="">levels</a>
+            <a href="">thems</a>
+        </nav>
+        <div class="account">
+            {% if request.user.is_authenticated %}
+              <img src="https://u.livelib.ru/album/1005932432/o/jxc51ghf/o-o.jpeg" alt="пользователь">
+              <h1>Nicname</h1>
+            {% endif %}
+        </div>
+    </div>
+</header>
